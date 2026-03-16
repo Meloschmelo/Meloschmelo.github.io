@@ -841,21 +841,21 @@
       <!-- AUSBILDUNG -->
       <div class="rank-category">▸ Agent in Training</div>
 
-      <div class="rank-card tier-member">
+      <div class="rank-card tier-training">
         <div class="rank-tier">Rang 04 · Training</div>
         <div class="rank-name">Agent</div>
         <div class="rank-desc">Agent in Training. Aktive Ausbildungsphase mit praktischen Einsätzen unter Aufsicht.</div>
         <div class="rank-num">04</div>
       </div>
 
-      <div class="rank-card tier-member">
+      <div class="rank-card tier-training">
         <div class="rank-tier">Rang 03 · Training</div>
         <div class="rank-name">Junior Agent</div>
         <div class="rank-desc">Agent in Training. Grundlegende Feldpraxis und Einführung in die Abteilungsarbeit.</div>
         <div class="rank-num">03</div>
       </div>
 
-      <div class="rank-card tier-member">
+      <div class="rank-card tier-training">
         <div class="rank-tier">Rang 02 · Training</div>
         <div class="rank-name">Agent in Education</div>
         <div class="rank-desc">Agent in Training. Theoretische und praktische Grundausbildung zu Beginn der FIB-Karriere.</div>
@@ -868,8 +868,152 @@
         <div class="rank-desc">Einstellungsrang. Vorübergehende Suspendierung – kein aktiver Dienst gestattet.</div>
         <div class="rank-num">01</div>
       </div>
-
+      
     </div>
+    <!-- ═══════════════════════════════════════════════════════════
+     EINFÜGEN: Nach Zeile 872 (</div> rank-grid Ende)
+     VOR Zeile 873 (</div> section-page)
+
+     870   </div>   ← rank-card Suspendiert Ende
+     871
+     872 </div>     ← rank-grid Ende   ← DANACH EINFÜGEN ↓
+     873 </div>     ← section-page Ende
+     874 </div>     ← #rangsystem Ende
+═══════════════════════════════════════════════════════════ -->
+
+    <!-- RANG-HIERARCHIE GRAFIK -->
+    <div style="margin-top:60px;">
+      <div class="section-tag" style="margin-bottom:14px;">&#9658; Visuelle Übersicht</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,5vw,58px);letter-spacing:4px;color:#f0e8d0;line-height:1;margin-bottom:10px;">RANG-HIERARCHIE</div>
+      <div style="width:80px;height:2px;background:linear-gradient(90deg,#c9a84c,transparent);margin-bottom:32px;"></div>
+
+      <div style="background:var(--panel);border:1px solid var(--border);padding:36px 28px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,16px 100%,0 calc(100% - 16px));position:relative;">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);"></div>
+
+        <svg width="100%" viewBox="0 0 680 980" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+          <defs>
+            <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </marker>
+          </defs>
+
+          <!-- LEADER -->
+          <text font-family="'Bebas Neue',sans-serif" font-size="11" fill="#c9a84c" x="340" y="20" text-anchor="middle" letter-spacing="4">&#9658; LEADER-R&#196;NGE</text>
+          <rect x="190" y="28" width="300" height="52" rx="6" fill="rgba(201,168,76,0.15)" stroke="#c9a84c" stroke-width="1.5" stroke-opacity="0.8"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="16" fill="#c9a84c" x="340" y="50" text-anchor="middle" letter-spacing="2">Director of F.I.B</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#c9a84c" fill-opacity="0.65" x="340" y="66" text-anchor="middle" letter-spacing="3">RANG 25 &#xB7; LEADER</text>
+          <line x1="340" y1="80" x2="340" y2="94" stroke="#c9a84c" stroke-opacity="0.5" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="160" y="96" width="360" height="50" rx="6" fill="rgba(201,168,76,0.08)" stroke="#c9a84c" stroke-width="1" stroke-opacity="0.5"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="15" fill="#c9a84c" fill-opacity="0.9" x="340" y="117" text-anchor="middle" letter-spacing="2">Deputy Director of F.I.B</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#c9a84c" fill-opacity="0.6" x="340" y="133" text-anchor="middle" letter-spacing="3">RANG 24 &#xB7; CO-LEADER</text>
+
+          <!-- HIGH COMMAND -->
+          <text font-family="'Bebas Neue',sans-serif" font-size="11" fill="#4a9de0" x="340" y="168" text-anchor="middle" letter-spacing="4">&#9658; HIGH COMMAND</text>
+          <line x1="340" y1="146" x2="340" y2="174" stroke="#4a9de0" stroke-opacity="0.4" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="100" y="176" width="480" height="42" rx="6" fill="rgba(24,95,165,0.12)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.5"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="14" fill="#4a9de0" x="340" y="193" text-anchor="middle">Management of F.I.B</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#4a9de0" fill-opacity="0.6" x="340" y="207" text-anchor="middle" letter-spacing="2">RANG 23</text>
+          <line x1="340" y1="218" x2="340" y2="230" stroke="#4a9de0" stroke-opacity="0.3" stroke-width="1"/>
+          <rect x="60" y="232" width="560" height="42" rx="6" fill="rgba(24,95,165,0.09)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="14" fill="#4a9de0" x="340" y="249" text-anchor="middle">Assistant Director</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#4a9de0" fill-opacity="0.6" x="340" y="263" text-anchor="middle" letter-spacing="2">RANG 22 &#xB7; KURATOR EINER ABTEILUNG</text>
+          <line x1="340" y1="274" x2="340" y2="286" stroke="#4a9de0" stroke-opacity="0.3" stroke-width="1"/>
+          <rect x="60" y="288" width="268" height="42" rx="6" fill="rgba(24,95,165,0.08)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.35"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="14" fill="#4a9de0" x="194" y="305" text-anchor="middle">Commander</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#4a9de0" fill-opacity="0.6" x="194" y="319" text-anchor="middle" letter-spacing="2">RANG 21 &#xB7; LEITER ABTEILUNG</text>
+          <rect x="352" y="288" width="268" height="42" rx="6" fill="rgba(24,95,165,0.07)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.3"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="14" fill="#4a9de0" x="486" y="305" text-anchor="middle">Deputy Commander</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#4a9de0" fill-opacity="0.6" x="486" y="319" text-anchor="middle" letter-spacing="2">RANG 20 &#xB7; CO-LEITER</text>
+
+          <!-- MITGLIEDER -->
+          <text font-family="'Bebas Neue',sans-serif" font-size="11" fill="#3fba90" x="340" y="358" text-anchor="middle" letter-spacing="4">&#9658; MITGLIEDER-R&#196;NGE</text>
+          <line x1="340" y1="330" x2="340" y2="364" stroke="#3fba90" stroke-opacity="0.4" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="60" y="366" width="268" height="42" rx="6" fill="rgba(15,110,86,0.11)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="194" y="383" text-anchor="middle">Senior HR Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="194" y="397" text-anchor="middle" letter-spacing="2">RANG 19</text>
+          <rect x="352" y="366" width="268" height="42" rx="6" fill="rgba(15,110,86,0.09)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.35"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="486" y="383" text-anchor="middle">Instructor</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="486" y="397" text-anchor="middle" letter-spacing="2">RANG 18 &#xB7; AUSBILDER</text>
+          <rect x="60" y="422" width="268" height="42" rx="6" fill="rgba(15,110,86,0.08)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.3"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="194" y="439" text-anchor="middle">Agent of HR</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="194" y="453" text-anchor="middle" letter-spacing="2">RANG 17</text>
+          <rect x="352" y="422" width="268" height="42" rx="6" fill="rgba(15,110,86,0.07)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.28"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="486" y="439" text-anchor="middle">Supervisor Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="486" y="453" text-anchor="middle" letter-spacing="2">RANG 16</text>
+          <rect x="60" y="478" width="268" height="42" rx="6" fill="rgba(15,110,86,0.06)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.25"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="194" y="495" text-anchor="middle">Special Agent in Charge</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="194" y="509" text-anchor="middle" letter-spacing="2">RANG 15</text>
+          <rect x="352" y="478" width="268" height="42" rx="6" fill="rgba(15,110,86,0.06)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.22"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="486" y="495" text-anchor="middle">Junior Agent in Charge</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="486" y="509" text-anchor="middle" letter-spacing="2">RANG 14</text>
+          <rect x="60" y="534" width="268" height="42" rx="6" fill="rgba(15,110,86,0.05)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.2"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="194" y="551" text-anchor="middle">Elite Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="194" y="565" text-anchor="middle" letter-spacing="2">RANG 13</text>
+          <rect x="352" y="534" width="268" height="42" rx="6" fill="rgba(15,110,86,0.05)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.18"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="486" y="551" text-anchor="middle">Senior Field Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="486" y="565" text-anchor="middle" letter-spacing="2">RANG 12</text>
+          <rect x="60" y="590" width="268" height="42" rx="6" fill="rgba(15,110,86,0.05)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.16"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="194" y="607" text-anchor="middle">Field Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="194" y="621" text-anchor="middle" letter-spacing="2">RANG 11</text>
+          <rect x="352" y="590" width="268" height="42" rx="6" fill="rgba(15,110,86,0.05)" stroke="#0F6E56" stroke-width="0.8" stroke-opacity="0.16"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#3fba90" x="486" y="607" text-anchor="middle">Junior Agent of HR</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#3fba90" fill-opacity="0.6" x="486" y="621" text-anchor="middle" letter-spacing="2">RANG 10</text>
+
+          <!-- SPEZIAL -->
+          <text font-family="'Bebas Neue',sans-serif" font-size="11" fill="#b07ce0" x="340" y="658" text-anchor="middle" letter-spacing="4">&#9658; SPEZIAL-R&#196;NGE</text>
+          <line x1="340" y1="632" x2="340" y2="664" stroke="#b07ce0" stroke-opacity="0.4" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="190" y="666" width="300" height="42" rx="6" fill="rgba(83,74,183,0.12)" stroke="#534AB7" stroke-width="0.8" stroke-opacity="0.45"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#b07ce0" x="340" y="683" text-anchor="middle">Agent of Media</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#b07ce0" fill-opacity="0.65" x="340" y="697" text-anchor="middle" letter-spacing="2">RANG 09 &#xB7; &#214;FFENTLICHKEITSARBEIT</text>
+
+          <!-- AGENT-RÄNGE -->
+          <text font-family="'Bebas Neue',sans-serif" font-size="11" fill="#7aafce" x="340" y="734" text-anchor="middle" letter-spacing="4">&#9658; AGENT-R&#196;NGE</text>
+          <line x1="340" y1="708" x2="340" y2="740" stroke="#7aafce" stroke-opacity="0.4" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="60" y="742" width="268" height="42" rx="6" fill="rgba(24,95,165,0.09)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.3"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#7aafce" x="194" y="759" text-anchor="middle">Senior Special Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#7aafce" fill-opacity="0.65" x="194" y="773" text-anchor="middle" letter-spacing="2">RANG 08</text>
+          <rect x="352" y="742" width="268" height="42" rx="6" fill="rgba(24,95,165,0.07)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.25"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#7aafce" x="486" y="759" text-anchor="middle">Special Agent 2nd Class</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#7aafce" fill-opacity="0.65" x="486" y="773" text-anchor="middle" letter-spacing="2">RANG 07</text>
+          <rect x="60" y="798" width="268" height="42" rx="6" fill="rgba(24,95,165,0.06)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.22"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#7aafce" x="194" y="815" text-anchor="middle">Special Agent 1st Class</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#7aafce" fill-opacity="0.65" x="194" y="829" text-anchor="middle" letter-spacing="2">RANG 06</text>
+          <rect x="352" y="798" width="268" height="42" rx="6" fill="rgba(24,95,165,0.05)" stroke="#185FA5" stroke-width="0.8" stroke-opacity="0.2"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#7aafce" x="486" y="815" text-anchor="middle">Special Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#7aafce" fill-opacity="0.65" x="486" y="829" text-anchor="middle" letter-spacing="2">RANG 05</text>
+
+          <!-- TRAINING -->
+          <text font-family="'Bebas Neue',sans-serif" font-size="11" fill="#e0a050" x="340" y="866" text-anchor="middle" letter-spacing="4">&#9658; AGENT IN TRAINING</text>
+          <line x1="340" y1="840" x2="340" y2="872" stroke="#e0a050" stroke-opacity="0.4" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="60" y="874" width="173" height="42" rx="6" fill="rgba(133,79,11,0.12)" stroke="#854F0B" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#e0a050" x="146" y="891" text-anchor="middle">Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#e0a050" fill-opacity="0.65" x="146" y="905" text-anchor="middle" letter-spacing="2">RANG 04</text>
+          <rect x="253" y="874" width="173" height="42" rx="6" fill="rgba(133,79,11,0.10)" stroke="#854F0B" stroke-width="0.8" stroke-opacity="0.35"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#e0a050" x="339" y="891" text-anchor="middle">Junior Agent</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#e0a050" fill-opacity="0.65" x="339" y="905" text-anchor="middle" letter-spacing="2">RANG 03</text>
+          <rect x="446" y="874" width="174" height="42" rx="6" fill="rgba(133,79,11,0.08)" stroke="#854F0B" stroke-width="0.8" stroke-opacity="0.3"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#e0a050" x="533" y="891" text-anchor="middle">Agent in Education</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#e0a050" fill-opacity="0.65" x="533" y="905" text-anchor="middle" letter-spacing="2">RANG 02 &#xB7; GRUNDAUSBILDUNG</text>
+
+          <!-- SUSPENDIERT -->
+          <line x1="340" y1="916" x2="340" y2="928" stroke="#c0504a" stroke-opacity="0.5" stroke-width="1" marker-end="url(#arr2)"/>
+          <rect x="190" y="930" width="300" height="36" rx="6" fill="rgba(163,45,45,0.12)" stroke="#A32D2D" stroke-width="0.8" stroke-opacity="0.45"/>
+          <text font-family="'Bebas Neue',sans-serif" font-size="13" fill="#c0504a" x="340" y="948" text-anchor="middle">Suspendiert</text>
+          <text font-family="Rajdhani,sans-serif" font-size="10" fill="#c0504a" fill-opacity="0.65" x="340" y="960" text-anchor="middle" letter-spacing="2">RANG 01 &#xB7; KEIN AKTIVER DIENST</text>
+
+          <!-- Seitenbalken -->
+          <rect x="28" y="28" width="3" height="70" rx="1" fill="#c9a84c" fill-opacity="0.6"/>
+          <rect x="28" y="176" width="3" height="154" rx="1" fill="#4a9de0" fill-opacity="0.5"/>
+          <rect x="28" y="366" width="3" height="266" rx="1" fill="#3fba90" fill-opacity="0.5"/>
+          <rect x="28" y="666" width="3" height="42" rx="1" fill="#b07ce0" fill-opacity="0.5"/>
+          <rect x="28" y="742" width="3" height="98" rx="1" fill="#7aafce" fill-opacity="0.5"/>
+          <rect x="28" y="874" width="3" height="42" rx="1" fill="#e0a050" fill-opacity="0.5"/>
+          <rect x="28" y="930" width="3" height="36" rx="1" fill="#c0504a" fill-opacity="0.5"/>
+        </svg>
+
+      </div>
+    </div>
+    <!-- ENDE GRAFIK -->
   </div>
 </div>
 
