@@ -48,45 +48,37 @@ header {
 .logo-btn {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   text-decoration: none;
   cursor: pointer;
   background: none;
   border: none;
+  transition: opacity 0.3s ease;
+}
+
+.logo-btn:hover {
+  opacity: 0.85;
 }
 
 .logo-emblem {
-  width: 46px;
-  height: 46px;
-  background: linear-gradient(135deg, var(--gold), #7a5c1e);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 18px;
-  color: var(--darker);
-  transition: transform 0.3s, box-shadow 0.3s;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.35s ease;
   flex-shrink: 0;
 }
 
 .logo-btn:hover .logo-emblem {
-  transform: scale(1.08);
-  box-shadow: 0 0 18px rgba(201, 168, 76, 0.5);
+  transform: scale(1.1) rotate(-4deg);
+  filter: drop-shadow(0 0 10px rgba(201, 168, 76, 0.45));
 }
 
 .logo-text {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 22px;
-  letter-spacing: 4px;
+  font-size: 16px;
+  letter-spacing: 3px;
   color: var(--gold);
   line-height: 1;
-}
-
-.logo-sub {
-  font-size: 10px;
-  letter-spacing: 3px;
-  color: var(--muted);
   text-transform: uppercase;
 }
 
@@ -319,7 +311,7 @@ nav {
   background: var(--panel);
   border: 1px solid var(--border);
   padding: 34px 30px;
-  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  border-radius: 12px;
 }
 
 .info-grid {
