@@ -579,6 +579,28 @@ nav {
   transition: color 0.3s ease;
 }
 
+.dept-desc ul {
+  margin: 10px 0 0 0;
+  padding-left: 18px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dept-desc ul li {
+  position: relative;
+  padding-left: 14px;
+}
+
+.dept-desc ul li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: bold;
+}
+
 .dept-card:hover .dept-desc {
   color: #cdc3a5;
 }

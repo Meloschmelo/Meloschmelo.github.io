@@ -5,28 +5,35 @@ const persons = {
     initials: 'SS',
     img: './img/silas_sato.png',
     exp: `
-      1. Detectiv – Celal Almaz
-      PU Leitung – Celal Almaz
-      PU Leitung – Jeff Weber
-      Assistant Sheriff – Sascha Ittrich
-      Assistant Sheriff – Freddy Gorke
-      Co Leader – Freddy Gorke
-      Co Leader – Willy Wumms
-      Co Leader – Toby Alvarez
-      LSPD 2 Monate
-      SWAT Leitung – Alexander Lorek
-      CO Leader – Leti Adams
-      FIB 3 Monate
-      FIBCO Agent – Toby Delgado
-      SRTF Leitung – Toby Delgado
-      HRT Curator – Dr. Luna Walker
-      Mädchen f. A. – Dr. Luna Walker
-      SANG 3 Monate
-      SANG Leader – SirSilas Sato
-      INF Leitung – Danusch Wayne
-      CO Leader – Brent Kruger
-      GOV 1 Woche
-      Dep. State Secretary – Dr. Francois Cripage
+      <strong>LSCSD 1,5 Jahre</strong><br>
+      Detectiv – Celal Almaz<br>
+      PU Leitung – Celal Almaz<br>
+      PU Leitung – Jeff Weber<br>
+      Assistant Sheriff – Sascha Ittrich<br>
+      Assistant Sheriff – Freddy Gorke<br>
+      Co Leader – Freddy Gorke<br>
+      Co Leader – Willy Wumms<br>
+      Co Leader – Toby Alvarez<br><br>
+
+      <strong>LSPD 3 Monate</strong><br>
+      SWAT Leitung – Alexander Lorek<br>
+      CO Leader – Leti Adams<br>
+      CO Leader - Jan Contino<br><br>
+
+
+      <strong>FIB 3 Monate</strong><br>
+      FIBCO Agent – Toby Delgado<br>
+      HRT Leitung – Toby Delgado<br>
+      HRT Curator – Dr. Luna Walker<br>
+      Mädchen f. A. – Dr. Luna Walker<br><br>
+      
+      <strong>SANG 3 Monate</strong><br>
+      SANG Leader – SirSilas Sato<br>
+      INF Leitung – Danusch Wayne<br>
+      CO Leader – Brent Kruger<br><br>
+      
+      <strong>GOV 1 Woche</strong><br>
+      Dep. State Secretary – Dr. Francois Cripage<br>
     `,
   },
   'luna': { 
