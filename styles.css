@@ -101,7 +101,7 @@ nav {
   position: relative;
   overflow: hidden;
   transition: color 0.3s, border-color 0.3s;
-  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  border-radius: 6px;
 }
 
 .nav-btn::before {
@@ -189,7 +189,7 @@ nav {
   padding: 5px 16px;
   text-transform: uppercase;
   margin-bottom: 22px;
-  clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  border-radius: 4px;
   background: rgba(201, 168, 76, 0.06);
 }
 
@@ -243,7 +243,7 @@ nav {
   border: 1px solid var(--border);
   padding: 28px 24px;
   position: relative;
-  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  border-radius: 12px;
 }
 
 .id-card::before {
@@ -387,7 +387,7 @@ nav {
   padding: 22px 20px;
   position: relative;
   overflow: hidden;
-  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+  border-radius: 10px;
   transition: border-color 0.3s, transform 0.3s;
 }
 
@@ -464,7 +464,7 @@ nav {
   grid-template-columns: 54px 1fr;
   gap: 18px;
   align-items: start;
-  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+  border-radius: 12px;
   position: relative;
   overflow: hidden;
   cursor: default;
@@ -603,7 +603,7 @@ nav {
   border: 1px solid var(--border);
   padding: 30px 28px;
   margin-bottom: 18px;
-  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+  border-radius: 12px;
 }
 
 .konzept-block h3 {

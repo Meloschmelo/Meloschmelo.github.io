@@ -42,16 +42,32 @@ const persons = {
     initials: 'LW',
     img: './img/luna_walker.png',
     exp: `
-      
+      <strong>Leader</strong><br>
+      LSPD - 2 Monate<br>
+      FIB - 1 Monat<br>
+      GOV - 4 Monate<br><br>
+
+      <strong>GOV - 1,5 Jahre</strong><br>
+      Cabinet Secretary<br>
+      Vice Governor<br>
+      ...
     `,
   },
   'alex': { 
-    name: 'Alex Strange',
-    id: '#45260', 
-    initials: 'AS',
-    img: './img/alex_strange.png',
+    name: 'Dr. Laura Hellokitty',
+    id: '#85524', 
+    initials: 'LH',
+    img: './img/laura_hellokitty.png',
     exp: `
-      
+      <strong>FIB</strong><br>
+      Vize - Toby Delgado<br>
+      Abteilungsleiter HR - Jeff Weber<br>
+      Abteilungsleiter HR - Jeff Hover<br>
+      CID Stellv. Abteilungsleiter - Robert Sneider <br><br>
+
+      <strong>LSCSD</strong><br>
+      DU Abteilungsleiter - Jeff Hover<br>
+      DU Abteilungsleiter - Freddie Gorke<br>
     `,
   },
 };
