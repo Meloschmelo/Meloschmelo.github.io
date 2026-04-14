@@ -53,7 +53,7 @@ const persons = {
       ...
     `,
   },
-  'alex': { 
+  'laura': { 
     name: 'Dr. Laura Hellokitty',
     id: '#85524', 
     initials: 'LH',
